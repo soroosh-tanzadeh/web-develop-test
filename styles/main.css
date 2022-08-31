@@ -1,0 +1,16 @@
+.calculator {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.inputs>input:not(:last-child) {
+    margin-bottom: 12px;
+}
